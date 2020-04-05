@@ -1,0 +1,20 @@
+---
+title: "README"
+author: "Romain Rossier"
+date: "12/03/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Differential Equations in R : modeling infectious diseases
+Quick implementation of different pandemic models  
+* sir2.1.R is based on the website [Modeling Infectious Diseases in Humans and Animals](http://homepages.warwick.ac.uk/~masfz/ModelingInfectiousDiseases/Chapter2/Program_2.1/index.html) by Matt J. Keeling & Pejman Rohani.  
+* stochastic_seird.R is the direct duplicated of [Stochastic SEIRD model using odin](http://epirecip.es/epicookbook/chapters/seird-stochastic-discretestate-discretetime/r_odin) by Thibaut Jombart.  
+* stochastic_seaitrd.R is an adaptation of the previous model with considerations from [	A study on stochastic epidemic models with the optimal control policies](https://sg.inflibnet.ac.in/bitstream/10603/98827/11/11_chapter%202.pdf) by Ali, SK Taslim.
+
+
+## Important
+None of these scripts are the work of an epidemiologist, values and parameters are **invented** for the sake of the exercise. The goal here is only to learn how to use the [R odin package](https://cran.r-project.org/web/packages/odin/index.html) for Differential Equations.
